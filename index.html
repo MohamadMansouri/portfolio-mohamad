@@ -569,10 +569,8 @@
 
                         <form action="https://formkeep.com/f/97654e12acb3"
                             class="contact-form"
-                            accept-charset="UTF-8"
-                            enctype="multipart/form-data"
                             method="POST"
-                            target="dummyframe">
+                            >
                             <div class="input-control i-c-2">
                                 <input type="text" name="name" required placeholder="YOUR NAME">
                                 <input type="email" name="email" required placeholder="YOUR EMAIL">
@@ -586,10 +584,9 @@
                             <!-- <div class="g-recaptcha" data-sitekey="6LcGrt0gAAAAAJBV5aNTuEsouM6UFmS54H36hGdj"></div> -->
                             
                             <div type="submit" class="submit-btn">
-                                <a class="main-btn">
-                                    <span class="btn-text">Send Message</span>
-                                    <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
-                                </a>
+                                <button type="submit" class="main-btn btnz" style="color: ;">
+                                    <a class="btn-text">Send Message</a>
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -620,4 +617,16 @@
     </div>
     <script src="app.js"></script>
 </body>
+<style>
+ 
+    .btnz {
+        height: 5vh;
+        background-color: transparent;
+        color: lightblue;
+        
+    }
+    .btnz:hover {
+        color: white;
+    }
+</style>
 </html>
