@@ -646,18 +646,6 @@ section {
   transition: all 0.4s ease-in-out;
 
 }
-.blogs .blog:hover .figure .tags{
-  /* transform: scale(1.1);
-  filter:opacity(100%); */
-
-  /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8); */
-}
-
-.blogs .blog:hover .figure .year-tag {
-  /* transform: scale(1.6); */
-  /* right: -12px; */
-  /* box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8); */
-}
 
 .blogs .blog .figure img {
   width: 100%;
